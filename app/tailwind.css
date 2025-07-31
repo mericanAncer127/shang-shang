@@ -1,0 +1,107 @@
+@import 'tailwindcss';
+
+@config '../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+* {
+  cursor: none;
+}
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition:
+    background-color 600000s 0s,
+    color 600000s 0s;
+}
+
+.underline-magical {
+  @apply bg-linear-to-r from-primary-500 to-primary-500 bg-no-repeat 
+  no-underline [background-position:0_100%]
+  [background-size:100%_0.2em] focus:[background-size:100%_100%] hover:text-white
+  hover:[background-size:100%_100%] motion-safe:transition-all
+  motion-safe:duration-300 dark:from-primary-500 dark:to-primary-500;
+}
+
+.horizontal-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#de1d8d, #de1d8d);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.horizontal-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+.horizontal-underline-active {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+#nprogress .bar {
+  background: #de1d8d !important;
+  height: 4px !important;
+}
+
+.intro-text {
+  transition: opacity 0.4s;
+}
+
+.flare {
+  position: fixed;
+  border: 2px solid #ffffff2b;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999999 !important ;
+  backdrop-filter: blur(1px);
+  background-color: #0000005e;
+  transition:
+    width 0.2s ease-in-out,
+    height 0.2s ease-in-out;
+  cursor: none !important; /* Let's hide the default cursor so it looks way better */
+}
+
+/* We need to remove this custom cursor in mobile devices */
+@media screen and (max-width: 768px) {
+  .flare {
+    width: 0;
+    height: 0;
+    transition:
+      width 0.2s ease-in-out,
+      height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
+  }
+}
+.flare.pointer {
+  opacity: 1 !important;
+  transition:
+    width 0.2s ease-in-out,
+    height 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
+}
