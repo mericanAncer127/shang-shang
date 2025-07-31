@@ -10,7 +10,7 @@ const { content } = readMDXFile(contentPath);
 
 export const metadata = {
   title: 'About',
-  description: 'About Pierre Le',
+  description: 'About Lucas Pham',
 };
 
 export default function Page() {
