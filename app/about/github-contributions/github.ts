@@ -1,7 +1,7 @@
 import { graphql } from '@octokit/graphql';
 import { cache } from 'react';
 
-export const GITHUB_USERNAME = 'dlarroder';
+export const GITHUB_USERNAME = 'skyward06';
 
 const getGraphqlWithAuth = cache(() => {
   const github_token = process.env.NEXT_PUBLIC_GITHUB_TOKEN || '';

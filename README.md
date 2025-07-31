@@ -1,10 +1,18 @@
-# dalelarroder.com ⚡️
+# lucas-pham.vercel.app ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Analytics**: [Logrocket](https://logrocket.com/)
 - **Content**: [MDX](https://mdxjs.com/)
+
+## Live Site
+
+[https://lucas-pham.vercel.app](https://lucas-pham.vercel.app)
+
+## Contact
+
+lucaspham92127@gmail.com
 
 ## Running Locally
 
@@ -13,13 +21,13 @@
 1. Clone this repo
 
 ```bash
-git clone git@github.com:dlarroder/dalelarroder.git
+git clone git@github.com:skyward06/lucas-pham.git
 ```
 
 2. Change directory
 
 ```sh
-cd dalelarroder
+cd lucas-pham
 ```
 
 3. Install dependencies
@@ -28,7 +36,7 @@ cd dalelarroder
 bun install
 ```
 
-1. Create a `.env.local` file following the `.env.example`
+4. Create a `.env.local` file following the `.env.example`
 
 ```bash
 cp .env.example .env.local
@@ -48,15 +56,3 @@ SPOTIFY_CLIENT_ID=<Your env>
 ```bash
 bun run dev
 ```
-
-## Previous Version
-
-This is the second version of my website.
-
-Prevoius v1 version:
-
-- https://v1.dalelarroder.com/
-
-## Licence
-
-[MIT](https://github.com/dlarroder/dalelarroder/blob/master/LICENSE) © [Dale Larroder](https://www.dalelarroder.com)

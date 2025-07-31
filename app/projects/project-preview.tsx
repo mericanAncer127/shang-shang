@@ -5,6 +5,7 @@ import { motion } from 'motion/react';
 // import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import { Project, ProjectModal } from './types';
+import Image from 'next/image';
 
 interface ProjectModalProps {
   modal: ProjectModal;
@@ -93,7 +94,7 @@ export default function ProjectPreview({ modal, projects }: ProjectModalProps) {
           }}
         >
           {projects.map((project, index) => {
-            const { src1 } = project;
+            const { image_src } = project;
             return (
               <div
                 className="flex h-full w-full items-center justify-center"
@@ -107,15 +108,14 @@ export default function ProjectPreview({ modal, projects }: ProjectModalProps) {
                   height={300}
                   alt="image"
                 /> */}
-                <video
-                  src={`/resources/${src1}`} // path to your video in the public directory
-                  autoPlay
-                  loop
-                  muted
-                  style={{ width: '100%', height: 'auto', objectFit: 'fill' }} // optional styling
-                >
-                  Your browser does not support the video tag.
-                </video>
+
+                <Image
+                  alt={project.title}
+                  width={100}
+                  height={300}
+                  src={`/resources/${image_src}`}
+                  className="object-cover w-full"
+                />
               </div>
             );
           })}

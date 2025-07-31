@@ -1,10 +1,9 @@
 export interface Project {
   title: string;
-  src1: string;
-  src2: string;
-  src3: string;
+  image_src: string;
   color: string;
   url: string;
+  github_url: string | null;
   role: string;
 }
 

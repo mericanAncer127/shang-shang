@@ -2,7 +2,8 @@ export type WorkTile = {
   title: string;
   description: string;
   video: {
-    src: string;
+    desktop_src: string;
+    mobile_src: string;
     width: number;
     height: number;
   };
@@ -10,28 +11,31 @@ export type WorkTile = {
 
 export const workTiles: WorkTile[] = [
   {
-    title: `Bremont`,
-    description: `Product use Case & Seamless Article Navigation`,
+    title: 'Savotta',
+    description: `Store Locator & Map Integration`,
     video: {
-      src: 'bremont/bremont2.webm',
+      desktop_src: 'landscape_shop_tablet.mp4',
+      mobile_src: 'mobile_uber_eats_food_order.mp4',
       width: 600,
-      height: 770,
+      height: 717,
     },
   },
   {
-    title: 'Burga',
-    description: 'Collection Navigation & Instant Checkout',
+    title: `Bremont`,
+    description: `Product use Case & Seamless Article Navigation`,
     video: {
-      src: 'burga/burga2.webm',
-      width: 600,
-      height: 554,
+      desktop_src: 'lancescape_shop_jacket.mp4',
+      mobile_src: 'mobile_virtual_try_on.mp4',
+      width: 544,
+      height: 304,
     },
   },
   {
     title: 'Daniel Wellington',
     description: `Perfect Match Suggestion`,
     video: {
-      src: 'danielwellington/danielwellington2.webm',
+      desktop_src: 'landscape_mobile_menu.mp4',
+      mobile_src: 'mobile_shopping.mp4',
       width: 600,
       height: 717,
     },
@@ -40,34 +44,28 @@ export const workTiles: WorkTile[] = [
     title: 'Toysrus',
     description: `User-Friendly Brand Navigation`,
     video: {
-      src: 'toysrus/toysrus2.webm',
+      desktop_src: 'landscape_shipping.mp4',
+      mobile_src: 'mobile_shop_mobile.mp4',
       width: 600,
       height: 717,
+    },
+  },
+  {
+    title: 'Burga',
+    description: 'Collection Navigation & Instant Checkout',
+    video: {
+      desktop_src: 'landscape_in_store_shop.mp4',
+      mobile_src: 'mobile_order_tracking.mp4',
+      width: 600,
+      height: 554,
     },
   },
   {
     title: 'Happy Earth Tea',
     description: `Simple UI for Product Browsing`,
     video: {
-      src: 'happyearthtea/happyearthtea2.webm',
-      width: 600,
-      height: 717,
-    },
-  },
-  {
-    title: 'Savotta',
-    description: `Store Locator & Map Integration`,
-    video: {
-      src: 'savotta/savotta2.webm',
-      width: 600,
-      height: 717,
-    },
-  },
-  {
-    title: 'WP Standard',
-    description: `Instant Variant Swatch in Collection Page`,
-    video: {
-      src: 'wpstandard/wpstandard2.webm',
+      desktop_src: 'landscape_shop_mobile.mp4',
+      mobile_src: 'mobile_delivering.mp4',
       width: 600,
       height: 717,
     },

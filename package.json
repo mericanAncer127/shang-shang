@@ -1,9 +1,9 @@
 {
-  "name": "dalelarroder.com",
+  "name": "lucaspham.verce.app",
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "serve": "next start",
     "lint": "next lint --dir app",

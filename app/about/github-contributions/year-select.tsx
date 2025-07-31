@@ -8,7 +8,7 @@ interface Props {
 export default function YearSelect({ selectedYear, onYearChange }: Props) {
   const thisYear = new Date().getFullYear();
 
-  const yearOptions = Array.from({ length: 5 }, (_, i) => thisYear - i);
+  const yearOptions = Array.from({ length: 10 }, (_, i) => thisYear - i);
 
   return (
     <div className="flex flex-col space-y-2 text-sm">

@@ -1,5 +1,7 @@
 // import Image from 'next/image';
 
+import Image from 'next/image';
+
 export default function Occupation() {
   return (
     <section className="mb-8 flex flex-col-reverse items-center justify-between sm:flex-row sm:items-center">
@@ -8,13 +10,13 @@ export default function Occupation() {
         <h2 className="text-sm font-normal md:text-base">Senior Shopify Engineer</h2>
       </div>
       <div>
-        {/* <Image
+        <Image
           alt="Lucas Pham"
           height={150}
-          width={200}
+          width={150}
           src="/static/images/avatar.png"
-          className="rounded-full object-scale-down grayscale"
-        /> */}
+          className="rounded-full object-scale-down"
+        />
       </div>
     </section>
   );

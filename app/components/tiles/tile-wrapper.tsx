@@ -31,7 +31,7 @@ export default function TileWrapper({ children, numOfPages }: WrapperProps) {
   return (
     <TileContext.Provider value={{ numOfPages, currentPage }}>
       <div
-        className="relative z-10 bg-black dark:bg-white"
+        className="relative z-10 bg-black"
         ref={refContainer}
         style={{
           height: numOfPages * 100 + 'vh',

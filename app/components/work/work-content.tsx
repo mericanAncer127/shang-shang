@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { WorkContainer } from './work-container';
 import { WorkRight } from './work-right';
 import { WorkTile } from './workTiles';
@@ -11,9 +11,17 @@ interface WorkContentProps {
 }
 
 export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
-  const { title, description, video } = work;
+  const { video } = work;
   const videoRef = useRef<HTMLVideoElement>(null);
   const [offset, setOffset] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 640);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     if (!videoRef.current) return;
@@ -42,17 +50,16 @@ export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
               mixBlendMode: 'difference',
             }}
           >
-            {title}
-            <span className="text-1xl font-medium md:text-2xl xl:text-1xl ml-5">{description}</span>
+            {/* {title} */}
+            {/* <span className="text-1xl font-medium md:text-2xl xl:text-1xl ml-5">{description}</span> */}
           </div>
           <video
             ref={videoRef}
-            src={`/resources/${video.src}`}
-            autoPlay
-            controls
+            src={`/resources/${isMobile ? video.mobile_src : video.desktop_src}`}
             loop
             muted
-            className="object-cover p-20 w-full h-auto"
+            autoPlay
+            className="w-full m-auto"
             style={{ transform: `translateX(${offset}%)`, transition: 'transform 0.1s ease-out' }}
           >
             Your browser does not support the video tag.

@@ -44,24 +44,24 @@ export default function Intro() {
       id="intro"
     >
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-10 py-24 text-4xl font-semibold tracking-tight md:py-28 md:text-6xl lg:px-20 lg:py-3 lg:text-7xl">
-        <div className="leading-[1.15]">
-          <div className="intro-text" style={{ opacity: opacityForBlock(progress, 0) }}>
+        <div className="leading-[1.15] pt-20">
+          <div className="intro-text pb-12" style={{ opacity: opacityForBlock(progress, 0) }}>
             CRO is crucial for your business, isn&apos;t it?
           </div>
           <span
-            className="intro-text inline-block after:content-['_']"
+            className="intro-text inline-block after:content-['_'] pb-12"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
             Do you have strategies in mind to increase the sales?
           </span>
           <span
-            className="intro-text inline-block"
+            className="intro-text inline-block pb-12"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
             We can do much for your store!
           </span>
           <span
-            className="intro-text inline-block"
+            className="intro-text inline-block pb-12"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
             I&apos;m ready for all you want!

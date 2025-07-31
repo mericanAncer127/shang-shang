@@ -10,10 +10,10 @@ export function WorkRight({ children, progress }: WorkProps) {
 
   return (
     <div
-      className="flex h-screen flex-1 justify-center lg:items-center"
+      className="flex h-screen flex-1 justify-center lg:items-center sm:w-full md:w-full xl:w-8/12 m-auto"
       style={{ transform: `translateY(${translateY}px)` }}
     >
-      <div className="w-full  pt-10 md:px-0 lg:pt-0">{children}</div>
+      <div className="w-full md:px-0 lg:pt-0">{children}</div>
     </div>
   );
 }
