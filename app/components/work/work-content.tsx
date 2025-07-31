@@ -38,7 +38,8 @@ export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
     <WorkContainer>
       <WorkRight progress={progress}>
         <div
-          className="drop-shadow-2xl sm:mt-10 md:mt-24 overflow-hidden relative"
+          className={`drop-shadow-2xl sm:mt-10 md:mt-24 overflow-hidden relative ${isMobile ? 'w-[102%]' : 'w-full'}`}
+          style={{ transform: `translateX(${isMobile ? -0.4 : offset}%)` }}
           onMouseMove={handleMouseMove}
         >
           <div
