@@ -23,9 +23,9 @@ export default function Header() {
                   'horizontal-underline-active': pathName === '/',
                 }
               )}
-              aria-label="LP."
+              aria-label="JS"
             >
-              LP.
+              JS.
             </Link>
           </div>
           <div className="flex items-center space-x-3 text-base leading-5">

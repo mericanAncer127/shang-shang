@@ -3,7 +3,7 @@ import SectionContainer from '../components/layouts/section-container';
 
 export const metadata = {
   title: 'Projects',
-  description: 'My Projects - Lucas Pham',
+  description: 'My Projects - Jaime Saga',
 };
 
 export default function Page() {

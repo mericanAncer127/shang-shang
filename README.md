@@ -1,4 +1,4 @@
-# lucas-pham.vercel.app ⚡️
+# jaime-saga.vercel.app ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -8,11 +8,11 @@
 
 ## Live Site
 
-[https://lucas-pham.vercel.app](https://lucas-pham.vercel.app)
+[https://jaime-saga.vercel.app](https://jaime-saga.vercel.app)
 
 ## Contact
 
-lucaspham92127@gmail.com
+jaimesaga9@gmail.com
 
 ## Running Locally
 
@@ -21,13 +21,13 @@ lucaspham92127@gmail.com
 1. Clone this repo
 
 ```bash
-git clone git@github.com:skyward06/lucas-pham.git
+git clone git@github.com:mericanAncer127/jaime-saga.git
 ```
 
 2. Change directory
 
 ```sh
-cd lucas-pham
+cd jaime-saga
 ```
 
 3. Install dependencies

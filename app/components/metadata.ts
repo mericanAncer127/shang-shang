@@ -1,14 +1,14 @@
 export const siteMetadata = {
-  title: 'Lucas Pham',
-  author: 'Lucas Pham',
-  headerTitle: 'lucaspham',
+  title: 'Jaime Saga',
+  author: 'Jaime Saga',
+  headerTitle: 'jaimesaga',
   description: 'Senior Shopify Developer',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://lucas-pham.vercel.app',
+  siteUrl: 'https://jaime-saga.vercel.app',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  email: 'lucaspham92127@gmail.com',
-  // linkedin: 'https://www.linkedin.com/in/pierre-le-x/',
+  email: 'jaimesaga9@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/jaime-saga/',
   locale: 'en-US',
 };
