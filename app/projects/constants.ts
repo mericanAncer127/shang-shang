@@ -15,7 +15,7 @@ export const projects: Project[] = [
     color: '#dbeafe',
     github_url: 'https://github.com/skyward06/Oblist-Main-Working-Theme',
     url: 'http://oblist.com',
-    role: 'Senior Shopify Engineer',
+    role: 'Senior Full Stack Engineer',
   },
   {
     title: 'Speaking Roses',
@@ -26,20 +26,12 @@ export const projects: Project[] = [
     role: 'Shopify / Shopify API Engineer',
   },
   {
-    title: 'Parliament',
-    image_src: '/static/images/project/parliament.png',
-    color: '#fee2e2',
-    github_url: 'https://github.com/skyward06/Parliament-shop-shopify-duplicate-default-theme-p',
-    url: 'https://www.shop.parliament.uk',
-    role: 'Full Stack Ecommerce Developer',
-  },
-  {
     title: 'Studio Proper',
     image_src: '/static/images/project/studioproper.png',
     color: '#dbeafe',
     github_url: 'https://github.com/skyward06/Studio-Proper-static-web-version',
     url: 'https://www.studioproper.com',
-    role: 'Application Developer',
+    role: 'Web Engineer',
   },
   {
     title: 'Taylrd Clothing',
@@ -47,7 +39,7 @@ export const projects: Project[] = [
     color: '#ffedd5',
     github_url: 'https://github.com/skyward06/Taylrd-Clothing-Default-Theme-Working-Main-p',
     url: 'https://taylrd.io',
-    role: 'Senior Shopify Developer',
+    role: 'Shopify Developer',
   },
   {
     title: 'Haus London',
@@ -55,6 +47,6 @@ export const projects: Project[] = [
     color: '#ecfccb',
     github_url: 'https://github.com/skyward06/HausLondon-react-starter-default-frontend-p',
     url: 'https://hauslondon.com/',
-    role: 'Shopify Developer',
+    role: 'Developer Intern',
   },
 ];

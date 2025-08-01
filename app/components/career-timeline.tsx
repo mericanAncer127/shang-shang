@@ -7,14 +7,13 @@ interface TimelineItem {
 }
 
 const timeline: TimelineItem[] = [
-  { year: '2017', title: 'B.S. of Computer Science', place: 'University of Texas at Austin' },
-  { year: '2018', title: 'Intern Developer', place: 'Haus London' },
-  { year: '2019', title: 'Developer', place: 'Taylr Clothing' },
-  { year: '2020', title: 'Software Engineer', place: 'Studio Proper' },
-  { year: '2021', title: 'Engineer', place: 'Parliament' },
-  { year: '2022', title: 'Senior Engineer', place: 'SpeakingRoses' },
-  { year: '2023', title: 'Lead Engineer', place: 'The Oblist' },
-  { year: '2024', title: 'Senior Engineer', place: 'OnlyNY' },
+  { year: 'Jun 2017', title: 'B.S. of Computer Science', place: 'University of Texas at Austin' },
+  { year: 'Jun 2017', title: 'Intern Developer', place: 'Haus London' },
+  { year: 'Sep 2017', title: 'Software Engineer', place: 'Studio Proper' },
+  { year: 'May 2018', title: 'Developer', place: 'Taylr Clothing' },
+  { year: 'Mar 2020', title: 'Senior Engineer', place: 'SpeakingRoses' },
+  { year: 'Feb 2021', title: 'Lead Engineer', place: 'The Oblist' },
+  { year: 'Jan 2024', title: 'Senior Engineer', place: 'OnlyNY' },
   { year: '2025+', title: 'Exclusive Contributor', place: '(?)' },
 ];
 
@@ -87,7 +86,7 @@ export default function CareerTimeline() {
               </div>
               {/* Text */}
               <div
-                className={`flex flex-col w-1/2 px-2 text-xs sm:text-sm ${isLeft ? 'pr-12 text-right' : 'pl-12 ml-auto text-left'}`}
+                className={`flex flex-col w-1/2 px-2 text-xs sm:text-sm ${isLeft ? 'pr-16 text-right' : 'pl-16 ml-auto text-left'}`}
                 style={{
                   order: isLeft ? 0 : 2,
                   marginTop: isLeft ? undefined : 'clamp(0.25rem, 2vw, 1.5rem)',
