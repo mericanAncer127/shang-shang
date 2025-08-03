@@ -1,4 +1,4 @@
-# jaime-saga.vercel.app ⚡️
+# harrisonhuang.vercel.app ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -8,11 +8,11 @@
 
 ## Live Site
 
-[https://jaime-saga.vercel.app](https://jaime-saga.vercel.app)
+[https://harrisonhuang.vercel.app](https://harrisonhuang.vercel.app)
 
 ## Contact
 
-jaimesaga9@gmail.com
+harrisonhuang9@gmail.com
 
 ## Running Locally
 
@@ -21,13 +21,13 @@ jaimesaga9@gmail.com
 1. Clone this repo
 
 ```bash
-git clone git@github.com:mericanAncer127/jaime-saga.git
+git clone git@github.com:mericanAncer127/harrison-huang.git
 ```
 
 2. Change directory
 
 ```sh
-cd jaime-saga
+cd harrison-huang
 ```
 
 3. Install dependencies

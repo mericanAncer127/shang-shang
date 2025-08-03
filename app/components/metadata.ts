@@ -1,14 +1,14 @@
 export const siteMetadata = {
-  title: 'Jaime Saga',
-  author: 'Jaime Saga',
-  headerTitle: 'jaimesaga',
+  title: 'Harrison Huang',
+  author: 'Harrison Huang',
+  headerTitle: 'harrisonhuang',
   description: 'Senior Shopify Developer',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://jaime-saga.vercel.app',
+  siteUrl: 'https://harrisonhuang.vercel.app',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  email: 'jaimesaga9@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/jaime-saga/',
+  email: 'harrisonhuang9@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/harrison-huangg/',
   locale: 'en-US',
 };
