@@ -2,11 +2,11 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
-    title: 'OnlyNY',
-    image_src: '/static/images/project/onlyny.png',
-    color: '#ddd6fe',
-    github_url: 'https://github.com/skyward06/OnlyNY-main-dawn-theme',
-    url: 'https://onlyny.com',
+    title: 'Speaking Roses',
+    image_src: '/static/images/project/speakingroses.png',
+    color: '#fae8ff',
+    github_url: 'https://github.com/skyward06/Speaking-Roses-Free-Theme-p',
+    url: 'https://speakingroses.com',
     role: 'Full Stack Shopify Developer',
   },
   {
@@ -18,11 +18,11 @@ export const projects: Project[] = [
     role: 'Senior Full Stack Engineer',
   },
   {
-    title: 'Speaking Roses',
-    image_src: '/static/images/project/speakingroses.png',
-    color: '#fae8ff',
-    github_url: 'https://github.com/skyward06/Speaking-Roses-Free-Theme-p',
-    url: 'https://speakingroses.com',
+    title: 'OnlyNY',
+    image_src: '/static/images/project/onlyny.png',
+    color: '#ddd6fe',
+    github_url: 'https://github.com/skyward06/OnlyNY-main-dawn-theme',
+    url: 'https://onlyny.com',
     role: 'Shopify / Shopify API Engineer',
   },
   {

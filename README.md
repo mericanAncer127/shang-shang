@@ -1,4 +1,4 @@
-# harrisonhuang.vercel.app ⚡️
+# jamespham.vercel.app ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -8,11 +8,11 @@
 
 ## Live Site
 
-[https://harrisonhuang.vercel.app](https://harrisonhuang.vercel.app)
+[https://jamespham.vercel.app](https://jamespham.vercel.app)
 
 ## Contact
 
-harrisonhuang9@gmail.com
+jamespham9@gmail.com
 
 ## Running Locally
 
@@ -21,13 +21,13 @@ harrisonhuang9@gmail.com
 1. Clone this repo
 
 ```bash
-git clone git@github.com:mericanAncer127/harrison-huang.git
+git clone git@github.com:mericanAncer127/james-pham.git
 ```
 
 2. Change directory
 
 ```sh
-cd harrison-huang
+cd james-pham
 ```
 
 3. Install dependencies

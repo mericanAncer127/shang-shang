@@ -7,13 +7,13 @@ interface TimelineItem {
 }
 
 const timeline: TimelineItem[] = [
-  { year: 'Jun 2017', title: 'B.S. of Computer Science', place: 'University of Edinburgh' },
+  { year: 'May 2017', title: 'B.S. of Computer Science', place: 'University of Texas at Austin' },
   { year: 'Jun 2017', title: 'Intern Developer', place: 'Haus London' },
   { year: 'Sep 2017', title: 'Software Engineer', place: 'Studio Proper' },
   { year: 'May 2018', title: 'Developer', place: 'Taylr Clothing' },
-  { year: 'Mar 2020', title: 'Senior Engineer', place: 'SpeakingRoses' },
+  { year: 'Mar 2020', title: 'Senior Engineer', place: 'OnlyNY' },
   { year: 'Feb 2021', title: 'Lead Engineer', place: 'The Oblist' },
-  { year: 'Jan 2024', title: 'Senior Engineer', place: 'OnlyNY' },
+  { year: 'Jan 2024', title: 'Senior Engineer', place: 'SpeakingRoses' },
   { year: '2025+', title: 'Exclusive Contributor', place: '(?)' },
 ];
 
