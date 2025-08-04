@@ -11,11 +11,11 @@ import FlareCursor from './components/FlareCusor';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | James Pham',
-    default: 'James Pham',
+    template: '%s | Remy Wong',
+    default: 'Remy Wong',
   },
   description: 'I build things for the web.',
-  metadataBase: new URL('https://jamespham.vercel.app'),
+  metadataBase: new URL('https://remywong.vercel.app'),
 };
 
 interface RootLayoutProps {

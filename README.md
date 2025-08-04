@@ -1,4 +1,4 @@
-# jamespham.vercel.app ⚡️
+# remywong.vercel.app ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -8,11 +8,11 @@
 
 ## Live Site
 
-[https://jamespham.vercel.app](https://jamespham.vercel.app)
+[https://remywong.vercel.app](https://remywong.vercel.app)
 
 ## Contact
 
-jamespham9@gmail.com
+remywong9@gmail.com
 
 ## Running Locally
 
@@ -21,7 +21,7 @@ jamespham9@gmail.com
 1. Clone this repo
 
 ```bash
-git clone git@github.com:mericanAncer127/james-pham.git
+git clone git@github.com:mericanAncer127/remy-wong.git
 ```
 
 2. Change directory
