@@ -8,7 +8,7 @@ export const siteMetadata = {
   siteUrl: 'https://shangshang.vercel.app',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  email: 'shangshang9@gmail.com',
+  email: 'shangshang127@outlook.com.com',
   linkedin: 'https://www.linkedin.com/in/shang-shangg/',
   locale: 'en-US',
 };

@@ -6,8 +6,8 @@ export default function Contact() {
           Let&apos;s Optimize & Innovate <br></br> your Store!
         </span>
         <span className="text-3xl md:text-6xl xl:text-8xl text-end">
-          <a href="mailto:shangshang9@gmail.com" className="underline">
-            shangshang9@gmail.com
+          <a href="mailto:shangshang127@outlook.com.com" className="underline">
+            shangshang127@outlook.com.com
           </a>
         </span>
       </div>
