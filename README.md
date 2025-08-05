@@ -1,4 +1,4 @@
-# remywong.vercel.app ⚡️
+# shangshang.vercel.app ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -8,11 +8,11 @@
 
 ## Live Site
 
-[https://remywong.vercel.app](https://remywong.vercel.app)
+[https://shangshang.vercel.app](https://shangshang.vercel.app)
 
 ## Contact
 
-remywong9@gmail.com
+shangshang9@gmail.com
 
 ## Running Locally
 
@@ -21,7 +21,7 @@ remywong9@gmail.com
 1. Clone this repo
 
 ```bash
-git clone git@github.com:mericanAncer127/remy-wong.git
+git clone git@github.com:mericanAncer127/shang-shang.git
 ```
 
 2. Change directory

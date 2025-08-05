@@ -6,12 +6,12 @@ export default function Occupation() {
   return (
     <section className="mb-8 flex flex-col-reverse items-center justify-between sm:flex-row sm:items-center">
       <div className="text-center pt-2 md:pt-0 md:text-left">
-        <h1 className="text-xl font-bold md:text-3xl lg:text-4xl">Remy Wong</h1>
+        <h1 className="text-xl font-bold md:text-3xl lg:text-4xl">Shang Shang</h1>
         <h2 className="text-sm font-normal md:text-base">Senior Full Stack Engineer</h2>
       </div>
       <div>
         <Image
-          alt="Remy Wong"
+          alt="Shang Shang"
           height={150}
           width={150}
           src="/static/images/avatar.png"
