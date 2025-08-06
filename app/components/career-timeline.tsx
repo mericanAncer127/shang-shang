@@ -8,8 +8,8 @@ interface TimelineItem {
 
 const timeline: TimelineItem[] = [
   { year: 'May 2017', title: 'B.S. of Computer Science', place: 'University of Sydney' },
-  { year: 'Jun 2017', title: 'Intern Developer', place: 'Haus London' },
-  { year: 'Sep 2017', title: 'Software Engineer', place: 'Studio Proper' },
+  { year: 'Jun 2017', title: 'Intern Developer', place: 'Studio Proper' },
+  { year: 'Sep 2017', title: 'Software Engineer', place: 'Haus London' },
   { year: 'May 2018', title: 'Developer', place: 'Taylr Clothing' },
   { year: 'Mar 2020', title: 'Senior Engineer', place: 'OnlyNY' },
   { year: 'Feb 2021', title: 'Lead Engineer', place: 'The Oblist' },

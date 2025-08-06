@@ -26,14 +26,6 @@ export const projects: Project[] = [
     role: 'Shopify / Shopify API Engineer',
   },
   {
-    title: 'Studio Proper',
-    image_src: '/static/images/project/studioproper.png',
-    color: '#dbeafe',
-    github_url: 'https://github.com/skyward06/Studio-Proper-static-web-version',
-    url: 'https://www.studioproper.com',
-    role: 'Web Engineer',
-  },
-  {
     title: 'Taylrd Clothing',
     image_src: '/static/images/project/taylrdclothing.png',
     color: '#ffedd5',
@@ -47,6 +39,14 @@ export const projects: Project[] = [
     color: '#ecfccb',
     github_url: 'https://github.com/skyward06/HausLondon-react-starter-default-frontend-p',
     url: 'https://hauslondon.com/',
+    role: 'Web Engineer',
+  },
+  {
+    title: 'Studio Proper',
+    image_src: '/static/images/project/studioproper.png',
+    color: '#dbeafe',
+    github_url: 'https://github.com/skyward06/Studio-Proper-static-web-version',
+    url: 'https://www.studioproper.com',
     role: 'Developer Intern',
   },
 ];
